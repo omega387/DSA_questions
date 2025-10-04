@@ -8,5 +8,9 @@ public class Main {
         L1.insertatbegining(3);
         L1.insertatbegining(4);
         L1.printll();
+        L1.insertatend(0);
+        L1.printll();
+        L1.insertatindex(3443, 2);
+        L1.printll();
     }
 }

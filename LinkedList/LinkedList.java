@@ -48,7 +48,7 @@ public class LinkedList {
         else{
             Node P1 = head;
             Node P2 = P1.next;
-            for(int i = 0; i<=indx; i++){
+            for(int i = 1; i<indx; i++){
                 P1 = P1.next;
                 P2 = P2.next;
             }
