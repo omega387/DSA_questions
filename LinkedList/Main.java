@@ -12,5 +12,9 @@ public class Main {
         L1.printll();
         L1.insertatindex(3443, 2);
         L1.printll();
+        L1.deleteatbegining();
+        L1.printll();
+        L1.deleteatend();
+        L1.printll();
     }
 }

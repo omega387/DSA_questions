@@ -58,6 +58,35 @@ public class LinkedList {
         size++;
     }
 
+    public void deleteatbegining(){
+        if(isEmpty()){
+            System.out.println("List is empty.");
+        }
+        else{
+            head = head.next;
+        }
+    }
+
+    public void deleteatend(){
+        if(isEmpty()){
+            System.out.println("List is empty.");
+        }
+        else{
+            Node temp = head;
+            while(temp.next.next != null){
+                temp = temp.next;
+            }
+            temp.next = null;
+        }
+    }
+
+    public void deleteatindex(int indx){
+        Node temp = head;
+        for(int i = 0; i< indx; i++){
+            
+        }
+    }
+
     public void printll(){
         Node temp = head;
         while(temp != null){
