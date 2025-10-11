@@ -24,7 +24,7 @@ public class Graph {
     }
 
     public void printGraph() {
-        for (var vertex : adjlist.keySet()) {
+        for (int vertex : adjlist.keySet()) {
             System.out.println(vertex + " -> " + adjlist.get(vertex));
         }
     }
