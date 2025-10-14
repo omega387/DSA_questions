@@ -107,6 +107,16 @@ public class LinkedList {
         head = prev;
     }
 
+    public int returnindx(int val){
+        Node temp = head;
+        int indx = 0;
+        while(temp.val != val){
+            temp = temp.next;
+            indx++;
+        }
+        return indx;
+    }
+
     public void printindx(int indx){
         Node temp = head;
         for(int i = 0; i<indx; i++){

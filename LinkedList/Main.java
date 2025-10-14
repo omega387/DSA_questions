@@ -26,5 +26,6 @@ public class Main {
         L1.printll();
         L1.printindx(4);
         System.out.println(L1.size());
+        System.out.println(L1.returnindx(11));
     }
 }
