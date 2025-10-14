@@ -18,5 +18,11 @@ public class Main {
         L1.printll();
         L1.deleteatindex(2);
         L1.printll();
+        L1.insertatbegining(11);
+        L1.insertatbegining(12);
+        L1.insertatbegining(13);
+        L1.printll();
+        L1.reverse();
+        L1.printll();
     }
 }
