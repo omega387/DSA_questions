@@ -64,7 +64,9 @@ public class LinkedList {
         }
         else{
             head = head.next;
+            size--;
         }
+
     }
 
     public void deleteatend(){
@@ -77,6 +79,7 @@ public class LinkedList {
                 temp = temp.next;
             }
             temp.next = null;
+            size--;
         }
     }
 
@@ -88,7 +91,7 @@ public class LinkedList {
             temp2 = temp2.next;
         }
         temp1.next = temp2.next;
-
+        size--;
     }
 
     public void reverse(){
@@ -102,6 +105,14 @@ public class LinkedList {
             curr = next;
         }
         head = prev;
+    }
+
+    public void printindx(int indx){
+        Node temp = head;
+        for(int i = 0; i<indx; i++){
+            temp = temp.next;
+        }
+        System.out.println(temp.val);
     }
 
     public void printll(){

@@ -24,5 +24,7 @@ public class Main {
         L1.printll();
         L1.reverse();
         L1.printll();
+        L1.printindx(4);
+        System.out.println(L1.size());
     }
 }
