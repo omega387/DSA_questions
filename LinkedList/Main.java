@@ -16,5 +16,7 @@ public class Main {
         L1.printll();
         L1.deleteatend();
         L1.printll();
+        L1.deleteatindex(2);
+        L1.printll();
     }
 }

@@ -81,10 +81,14 @@ public class LinkedList {
     }
 
     public void deleteatindex(int indx){
-        Node temp = head;
-        for(int i = 0; i< indx; i++){
-            
+        Node temp1 = head;
+        Node temp2 = head.next;
+        for(int i = 0; i< indx - 1 ; i++){
+            temp1 = temp1.next;
+            temp2 = temp2.next;
         }
+        temp1.next = temp2.next;
+
     }
 
     public void printll(){
