@@ -13,7 +13,7 @@ public class prefixsum {
         int[] arr = {1,2,3,4,5,6,7};
         int[] pre = presum(arr);
         for(int i = 0; i < pre.length - 1 ; i++ ){
-            System.out.print(i + ",");
+            System.out.print(pre[i] + ",");
         }
         System.out.println(pre[pre.length-1]);
     }
